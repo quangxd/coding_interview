@@ -1,0 +1,5 @@
+//Explain whether you would use a separate structure to mark visited cells and justify your choice.
+
+No extra space for visited: Since we are marking visited cells directly in the grid by changing the values of the 1s to 0s,
+there is no need to allocate additional space for tracking visited cells. The grid itself holds this information.
+
