@@ -60,5 +60,6 @@ public class LargestCluster {
         };
         //expected result is 7
         System.out.println("Largest cluster:"+ largestClusterSize(matrix));
+        System.out.println("log 1");
     }
 }
