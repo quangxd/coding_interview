@@ -19,6 +19,15 @@ public class LargestCluster {
         return largestSize;
     }
 
+    /**
+     * add description above method
+     *
+     * @param x
+     * @param y
+     * @param matrix
+     * @param direction
+     * @return
+     */
     private static  int dfs(int x, int y, int[][] matrix, int[] direction) {
         int size = 0;
         Stack<int[]> stack = new Stack<>();
